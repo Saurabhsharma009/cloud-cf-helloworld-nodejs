@@ -19,7 +19,7 @@ npm config set @sap:registry https://npm.sap.com
 ## Step 2: Run the service locally.
 - Clone this repo to your machine.  
 - In the folder you cloned into, execute the `npm install` command.  
-- To start the server, execute the `nodejs server.js` command.  
+- To start the server, execute the `node server.js` command.  
 - To get all users or the details of one user, browse `http://<ip>:8088/users` or `http://<ip>:8088/users/2`.  
 - To add another entry to the list of users using the POST operation use, for example, the `Postman` extension of Chrome. (PUT and DELETE are not yet implemented). To test these operations, import the file `SAP-CP-CF_Hello_World.postman_collection.json` from this repository into `Postman`.  
 
